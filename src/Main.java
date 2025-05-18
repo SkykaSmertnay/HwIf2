@@ -93,7 +93,7 @@ public class Main {
         {
             System.out.println("Доставки нет");
         }
-        // Задание №5
+        // Задание №5.
         System.out.println("\n Задание №5");
         int monthNumber;
         System.out.println("Введите номер меяца: ");
