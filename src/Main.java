@@ -9,9 +9,12 @@ public class Main {
         System.out.print("Какая у вас операционная система: 1. iOS\t2.Android \n Ваш ответ: ");
         byte oS;
         oS = scan.nextByte();
-        if (oS == 1) {
+        if (oS == 1)
+        {
             clientOS = false;
-        } else {
+        }
+        else
+        {
             clientOS = true;
         }
         if (clientOS)
@@ -30,12 +33,12 @@ public class Main {
         oS2 = scan.nextByte();
         System.out.println("Введите год выпуска вашего телефона:");
         clientDeviceYear = scan.nextShort();
-        if (oS2 == 1 && clientDeviceYear < 2015)
+        if ((oS2 == 1 && clientDeviceYear < 2015) )
         {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке.");
 
         }
-        if (oS2 == 1 && clientDeviceYear >= 2015)
+        else if (oS2 == 1)
         {
             System.out.println("Установите версию приложения для iOS по ссылке.");
 
@@ -45,7 +48,7 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке.");
 
         }
-        if (oS2 == 2 && clientDeviceYear >= 2015)
+        else if (oS2 == 2)
         {
             System.out.println("Установите версию приложения для Android по ссылке.");
 
@@ -73,21 +76,20 @@ public class Main {
         {
             deliveryDays = 1;
             System.out.println("Потребуется дней: " + deliveryDays );
-
         }
-        if (deliveryDistance >= 20 && deliveryDistance <= 60)
+        else if ( deliveryDistance <= 60)
         {
             deliveryDays = 2;
             System.out.println("Потребуется дней: " + deliveryDays );
 
         }
-        if (deliveryDistance >= 60 && deliveryDistance <= 100)
+        else if (deliveryDistance <= 100)
         {
             deliveryDays = 3;
             System.out.println("Потребуется дней: " + deliveryDays );
 
         }
-        if (deliveryDistance > 100)
+        else
         {
             System.out.println("Доставки нет");
         }
