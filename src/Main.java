@@ -9,14 +9,7 @@ public class Main {
         System.out.print("Какая у вас операционная система: 1. iOS\t2.Android \n Ваш ответ: ");
         byte oS;
         oS = scan.nextByte();
-        if (oS == 1)
-        {
-            clientOS = false;
-        }
-        else
-        {
-            clientOS = true;
-        }
+        clientOS = oS != 1;
         if (clientOS)
         {
             System.out.println("Установите версию приложения для Android по ссылке.");
@@ -43,12 +36,12 @@ public class Main {
             System.out.println("Установите версию приложения для iOS по ссылке.");
 
         }
-        if (oS2 == 2 && clientDeviceYear < 2015)
+        else if (oS2 == 2 && clientDeviceYear < 2015)
         {
             System.out.println("Установите облегченную версию приложения для Android по ссылке.");
 
         }
-        else if (oS2 == 2)
+        else
         {
             System.out.println("Установите версию приложения для Android по ссылке.");
 
