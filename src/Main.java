@@ -90,39 +90,39 @@ public class Main {
         switch (monthNumber)
         {
             case (1):
-                System.out.println("Январь этот месяц принадлежыт к сезону зима.");
+                System.out.println("Январь этот месяц принадлежит к сезону зима.");
                 break;
             case (2):
-                System.out.println("Февраль этот месяц принадлежыт к сезону зима.");
+                System.out.println("Февраль этот месяц принадлежит к сезону зима.");
                 break;
                 case (12):
-            System.out.println("Декабрь этот месяц принадлежыт к сезону зима.");
+            System.out.println("Декабрь этот месяц принадлежит к сезону зима.");
             break;
             case (3):
-                System.out.println("Март этот месяц принадлежыт к сезону весна.");
+                System.out.println("Март этот месяц принадлежит к сезону весна.");
                 break;
             case (4):
-                System.out.println("Апрель этот месяц принадлежыт к сезону весна.");
+                System.out.println("Апрель этот месяц принадлежит к сезону весна.");
                 break;
                 case (5):
-            System.out.println("Май этот месяц принадлежыт к сезону весна.");
+            System.out.println("Май этот месяц принадлежит к сезону весна.");
             break;
             case (6):
-                System.out.println("Июнь этот месяц принадлежыт к сезону лето.");
+                System.out.println("Июнь этот месяц принадлежит к сезону лето.");
                 break;
             case (7):
-                System.out.println("Июль этот месяц принадлежыт к сезону лето.");
+                System.out.println("Июль этот месяц принадлежит к сезону лето.");
                 break;case (8):
-            System.out.println("Август этот месяц принадлежыт к сезону лето.");
+            System.out.println("Август этот месяц принадлежит к сезону лето.");
             break;
             case (9):
-                System.out.println("Сентябрь этот месяц принадлежыт к сезону осень.");
+                System.out.println("Сентябрь этот месяц принадлежит к сезону осень.");
                 break;
             case (10):
-                System.out.println("Октябрь этот месяц принадлежыт к сезону осень.");
+                System.out.println("Октябрь этот месяц принадлежит к сезону осень.");
                 break;
             case (11):
-                System.out.println("Ноябрь  этот месяц принадлежыт к сезону осень.");
+                System.out.println("Ноябрь  этот месяц принадлежит к сезону осень.");
                 break;
 
             default:
