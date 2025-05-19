@@ -10,12 +10,9 @@ public class Main {
         byte oS;
         oS = scan.nextByte();
         clientOS = oS != 1;
-        if (clientOS)
-        {
+        if (clientOS) {
             System.out.println("Установите версию приложения для Android по ссылке.");
-        }
-        else
-        {
+        } else {
             System.out.println("Установите версию приложения для iOS по ссылке.");
         }
         // Задание №2
@@ -26,37 +23,23 @@ public class Main {
         oS2 = scan.nextByte();
         System.out.println("Введите год выпуска вашего телефона:");
         clientDeviceYear = scan.nextShort();
-        if ((oS2 == 1 && clientDeviceYear < 2015) )
-        {
+        if ((oS2 == 1 && clientDeviceYear < 2015) ) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке.");
-
-        }
-        else if (oS2 == 1)
-        {
+        } else if (oS2 == 1) {
             System.out.println("Установите версию приложения для iOS по ссылке.");
-
-        }
-        else if (oS2 == 2 && clientDeviceYear < 2015)
-        {
+        } else if (oS2 == 2 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке.");
-
-        }
-        else
-        {
+        } else {
             System.out.println("Установите версию приложения для Android по ссылке.");
-
         }
         // Задание №3
         System.out.println("\n Задание №3");
         int year;
         System.out.println("Введите год :");
         year = scan.nextInt();
-        if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0) && (year >= 1584 ))
-        {
+        if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0) && (year >= 1584 )) {
             System.out.println(year + " год является високосным");
-        }
-        else
-        {
+        } else {
             System.out.println(year + " год не является високосным");
         }
         // Задание №4
@@ -65,25 +48,17 @@ public class Main {
         int deliveryDays;
         System.out.print("Введите расстояние до клиента: ");
         deliveryDistance = scan.nextInt();
-        if (deliveryDistance <= 20)
-        {
+        if (deliveryDistance <= 20) {
             deliveryDays = 1;
             System.out.println("Потребуется дней: " + deliveryDays );
-        }
-        else if ( deliveryDistance <= 60)
-        {
+        } else if ( deliveryDistance <= 60) {
             deliveryDays = 2;
             System.out.println("Потребуется дней: " + deliveryDays );
 
-        }
-        else if (deliveryDistance <= 100)
-        {
+        } else if (deliveryDistance <= 100) {
             deliveryDays = 3;
             System.out.println("Потребуется дней: " + deliveryDays );
-
-        }
-        else
-        {
+        } else {
             System.out.println("Доставки нет");
         }
         // Задание №5.
