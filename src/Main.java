@@ -70,16 +70,16 @@ public class Main {
         switch (monthNumber)
         {
             case (1), (2), (12):
-                System.out.println("Этот месяц принадлежыт к сезону зима.");
+                System.out.println("Этот месяц принадлежит к сезону зима.");
                 break;
             case (3), (4), (5):
-                System.out.println("Этот месяц принадлежыт к сезону весна.");
+                System.out.println("Этот месяц принадлежит к сезону весна.");
                 break;
             case (6), (7), (8):
-                System.out.println("Этот месяц принадлежыт к сезону лето.");
+                System.out.println("Этот месяц принадлежит к сезону лето.");
                 break;
             case (9), (10), (11):
-                System.out.println("Этот месяц принадлежыт к сезону осень.");
+                System.out.println("Этот месяц принадлежит к сезону осень.");
                 break;
 
             default:
